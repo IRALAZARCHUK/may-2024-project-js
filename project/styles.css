@@ -1,0 +1,23 @@
+#users-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.newDiv {
+    width: 45%;
+    padding: 10px;
+
+}
+.newDiv>a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 3px 10px;
+    background-color: #d1abc6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.newDiv>a:hover {
+    background-color: #8f5a85;
+}
