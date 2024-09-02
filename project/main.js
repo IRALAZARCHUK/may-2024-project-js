@@ -22,4 +22,4 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
         container.appendChild(div)
     }
-})
+});
