@@ -21,12 +21,4 @@
 .newDiv>a:hover {
     background-color: #8f5a85;
 }
-#btn-post {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Зелений */
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
+
