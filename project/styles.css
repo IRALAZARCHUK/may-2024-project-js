@@ -21,4 +21,14 @@
 .newDiv>a:hover {
     background-color: #8f5a85;
 }
+body{
+    background: #3a3a81;
+}
+#users-box{
+    border: 1px solid lemonchiffon;
+    background-color: white;
+    border-radius: 50px;
+    justify-content: center;
+    height: 100vh;
 
+}

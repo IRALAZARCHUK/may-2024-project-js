@@ -27,27 +27,24 @@ body {
     color: #555;
 }
 
-#comments-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.comments-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     width: 90%;
     margin-top: 20px;
 }
 
 
-.comment {
-    width: 23%;
-    background-color: #d8c5c5;
-    margin-bottom: 20px;
+.comment-el-div {
+    background-color: #d5cfcf;
     padding: 15px;
     border-radius: 8px;
 }
 
-.comment {
+.comment-el-div>p{
     margin: 5px 0;
     color: #0b0a0a;
-    background: #9f9fbf;
 }
 
 

@@ -58,6 +58,7 @@ function showUserPosts(userId) {
         .then(response => response.json())
         .then(posts => {
             const postsContainer = document.createElement('div');
+            postsContainer.classList.add('div-post')
             postsContainer.id = `posts-container-${userId}`;
             posts.forEach(post => {
                 const postElement = document.createElement('div');

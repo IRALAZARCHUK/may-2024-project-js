@@ -19,35 +19,30 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    cursor: pointer;
 }
 
-
-#posts-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px auto;
-    width: 90%;
+.div-post {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-top: 20px;
 }
 
-#posts-container div {
-    width: 18%;
-    margin: 10px;
+.div-post>.post {
+    background-color: #fff;
     padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f1f1f1;
+    border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
 
-#posts-container div a {
-    display: block;
-    margin-top: 10px;
-    color: #a1a0a0;
+.div-post>.post>p {
+    margin: 10px 0;
+}
+
+.div-post>.post> a {
     text-decoration: none;
-}
-
-#posts-container div a:hover {
-    text-decoration: underline;
+    color: #977c8f;
 }

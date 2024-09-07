@@ -45,11 +45,13 @@ function showUserComments(postId) {
         .then(response => response.json())
         .then(comments => {
             const commentContainer = document.getElementById(`comments-container-${postId}`) || document.createElement('div');
+            commentContainer.classList.add('comments-div')
             commentContainer.id = `comments-container-${postId}`;
             commentContainer.innerHTML = '';
 
             comments.forEach(comment => {
                 const commentElement = document.createElement('div');
+                commentElement.classList.add('comment-el-div')
                 commentElement.innerHTML = `
                     <p><strong>${comment.name}</strong> (${comment.email})</p>
                     <p>${comment.body}</p>
